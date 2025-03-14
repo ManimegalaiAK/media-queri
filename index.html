@@ -1,0 +1,119 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            color: rgb(10, 8, 8);
+            text-align: center; 
+            font-size: large; 
+        }
+        form{
+            border:  4px solid black;
+            margin-left: 300px;
+            padding: 2px;
+            max-width: 330px;
+            max-height: 900px;
+         }
+        table{
+            background-color: rgb(248, 221, 86); 
+            padding: 2px;
+            max-height: 900px;
+            max-width: 600px;
+        }
+        img{
+            margin-left: 100px;
+        }
+        .one tr{
+            padding: 10px;
+            font-size: 1em;    
+        }
+        .one td{
+            padding: 10px;
+            font-size: 1em;
+            width: 300px;
+            }
+        .two button{
+            text-align: center;
+            height: 40px;
+            width: 310px;
+            background-color: rgb(28, 250, 28);
+            color: white;
+        }
+        .four{
+            border: 2px;
+            font-size: 10pxpx;
+            height: 70px;
+            width: 100px;
+            background-color: rgb(194, 202, 194);
+        }
+          @media(min-width:450px) and (max-width:600px)
+        {
+            form
+            {
+                margin-left: 100px;
+                border-color: blueviolet;
+            }
+            table
+            {
+                background-color: rgb(35, 220, 233);
+            }
+            .four
+            {
+              background-color: rgb(231, 84, 84);
+            }
+        }
+        @media(min-width:600px) and (max-width:900px)
+        {
+            form
+            {
+                margin-left: 100px;
+                border-color: green;
+            }
+            table
+            {
+                background-color: rgb(48, 29, 224);
+            }
+            .four
+            {
+                background-color: rgb(184, 187, 17);
+            }  
+        }
+            </style>
+</head>
+<body>
+     <header><h3>Login Form</h3></header>
+  <form> 
+    <table>
+        <nav>
+        <div>
+        <img src="https://w7.pngwing.com/pngs/17/243/png-transparent-computer-icons-arshad-ayub-graduate-business-school-students-miscellaneous-logo-monochrome.png" height="120px" width="130px">
+    <tr class="one">
+        <td><label>Username</label></td></tr>
+     <tr ><td><input type="Username" placeholder="Username" value="required"></td>
+    </tr>
+    <tr class="one">
+        <td><label>Passsword</label></td></tr>
+      <tr> <td><input type="password" placeholder="Passsword" value="required"></td>
+    </tr>
+    <tr class="two">
+    <td>
+        <button >Login</button>
+    </td></tr>
+    <tr class="three">
+        <td><input type="checkbox"background-color="blue" >  Remember me</td>
+            </tr>
+             <footer>   
+    <tr class="four">
+        <td ><button style="background-color: rgb(119, 111, 230); color: white;">Cancel</button>
+                    Forget <span style="color: blue; font-style: italic; font: bolder;" >Password ?</span></td>
+                </tr>
+             </footer>
+        </div>
+     </nav>
+    </table>
+    </form>
+</body>
+</html> 
